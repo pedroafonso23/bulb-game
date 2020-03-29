@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en" onload="load()">
+
+<head>
+    <title>Amazing Bulb Game</title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+
+<script src="_javascript/functions.js"></script>
+
+<body>
+    <div id="interface">
+        <header id="page-header">
+            <h1>Welcome to the Amazing Bulb Game</h1>
+            <h2>Gotta turn off `em all!</h2>
+            
+            <img id="bg" src="_images/bulb-icon.png">
+        </header>
+        <section id="page-body">
+            <div><input id="start" type="button" value="START" onclick="startGame()"></div>
+            <div id="timer">TIMER</div>
+            <img id="b1" src="_images/lampada-apagada.jpg" onclick="litUp(1)">
+            <img id="b2" src="_images/lampada-apagada.jpg" onclick="litUp(2)">
+            <img id="b3" src="_images/lampada-apagada.jpg" onclick="litUp(3)">
+            <img id="b4" src="_images/lampada-apagada.jpg" onclick="litUp(4)">
+            <img id="b5" src="_images/lampada-apagada.jpg" onclick="litUp(5)">
+        <div id="divscore">
+            <p>SCORE:</p>
+            <p id="score">0</p>
+        </div>
+        </section>
+        <footer id="page-footer">
+            <p>
+                Copyright &copy; 2020 - by Pedro Afonso<br>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a> | <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    white-space: nowrap;
+}
+
+header {
+    font-size: 20pt;
+    
+}
+
+header img {
+    position: relative;
+    top: -120px;
+    left: -280px;
+}
+
+section {
+    margin: 0px 100px 250px 100px;
+}
+
+section input#start {
+    width: 160px;
+    height: 80px;
+    font-size: 30pt;
+    font-weight: bolder;
+    border-width: 5px;
+}
+
+div#timer {
+    position: relative;
+    top: -180px;
+    left: 280px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+section input#result, input#timer {
+    width: 150px;
+    height: 100px;
+    border-width: 3px;
+}
+
+section img {
+    padding: 30px;
+}
+
+div#divscore {
+    font-size: 30pt;
+    font-weight: bold;
+}
